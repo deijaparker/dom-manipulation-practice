@@ -1,0 +1,109 @@
+body {
+  padding: 1em;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+button {
+  border-radius: 4px;
+  padding: 8px 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.screen {
+  border: 1px solid #ccc;
+  height: 32vh;
+  margin: 2em;
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding: 1.5em;
+  color: #333;
+  font-size: 18px;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 0;
+}
+
+.colorPalette {
+  margin: 1em 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.colorPalette button {
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.nyPic {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.textTop {
+  padding: 1em;
+  font-family: Georgia, serif;
+  color: #555;
+}
+
+.box {
+  border: 1px solid #007bff;
+  margin: 1.5em 0;
+  padding: 1em;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.circle {
+  border: 1px solid #007bff;
+  height: 200px;
+  width: 100%;
+  margin: 1em 0;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.circle:hover {
+  transform: scale(1.05);
+}
+
+.vadim2 {
+  border: 2px solid #6f42c1;
+  height: 90px;
+  width: 90px;
+  border-radius: 8px;
+}
+
+.exampleBox {
+  border: 1px solid #28a745;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.exampleBox:hover {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.exampleImage {
+  border: 2px double #6f42c1;
+  height: 90px;
+  background-image: url("https://j.gifs.com/X6GDpo@large.gif?download=true");
+  background-size: cover;
+  border-radius: 8px;
+}
